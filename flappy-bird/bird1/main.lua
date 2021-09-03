@@ -104,7 +104,6 @@ function love.draw()
 
 	-- draw the background at the negative looping point
 	love.graphics.draw(background, -backgroundScroll, 0)
-	love.graphics.draw(background, 0, 0)
 
 	-- draw the ground on top of the background, toward the
 	-- bottom of the screen, at its negative looping point
